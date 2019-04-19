@@ -1,0 +1,50 @@
+#创建scrapy项目
+scrapy startproject uplooking
+cd uplooking1
+cd spiders
+
+#创建爬虫文件
+
+scrapy genspider uplooking100 "http://www.uplooking.com"
+
+
+
+
+# -*- coding: utf-8 -*-
+import scrapy
+
+
+class Uplooking100Spider(scrapy.Spider):
+    name = 'uplooking100'
+    allowed_domains = ['http://www.uplooking.com']
+    start_urls = ['http://www.uplooking.com/']
+
+    def parse(self, response):
+        print response.body
+        #pass
+
+
+#检查爬虫项目是否正常
+scrapy check uplooking100
+#运行爬虫
+scrapy crawl uplooking100
+
+
+保存爬虫结果
+scrapy crawl uplooking20 -o uplooking20.json
+scrapy crawl uplooking20 -o uplooking21.csv
+scrapy crawl uplooking20 -o uplooking20.xml
+
+
+scrapy  shell
+scrapy shell "http://www.uplooking.com/content/he-zuo-yuan-xiao"
+
+response.xpath("//div[@class='hzyx-level']")
+
+
+
+
+
+
+
+
