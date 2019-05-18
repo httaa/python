@@ -1,0 +1,103 @@
+{
+  "AH10":
+  [
+    {
+      "ts": {AH10_time},
+      "values": {
+        "Ua":  {AH10_Ua},
+        "Ub":  {AH10_Ub},
+        "Uc":  {AH10_Uc},
+        "Ia":  {AH10_Ia},
+        "Ib":  {AH10_Ib},
+        "Ic":  {AH10_Ic},
+        "P":   {AH10_P},
+        "Q":   {AH10_Q},
+        "S":   {AH10_S},
+        "F":   {AH10_F},
+        "Pf":  {AH10_Pf},
+        "Wh":  {AH10_Wh},
+        "Varh":{AH10_Varh}
+      }
+    }
+  ],
+  "1D5-8":
+  [
+    {
+      "ts": {1D5-8_time},
+      "values": {
+        "Ua":  {1D5-8_Ua},
+        "Ub":  {1D5-8_Ub},
+        "Uc":  {1D5-8_Uc},
+        "Ia":  {1D5-8_Ia},
+        "Ib":  {1D5-8_Ib},
+        "Ic":  {1D5-8_Ic},
+        "P":   {1D5-8_P},
+        "Q":   {1D5-8_Q},
+        "S":   {1D5-8_S},
+        "F":   {1D5-8_F},
+        "Pf":  {1D5-8_Pf},
+        "Wh":  {1D5-8_Wh},
+        "Varh":{1D5-8_Varh}，
+        "1D5-8_1A": {1A},
+        "1D5-8_1B": {1B},
+        "1D5-8_1C": {1C}
+      }
+    }
+  ],
+  "5D3-2":
+  [
+    {
+      "ts": {5D3-2_time},
+      "values": {
+        "Ua":  {5D3-2_Ua},
+        "Ub":  {5D3-2_Ub},
+        "Uc":  {5D3-2_Uc},
+        "Ia":  {5D3-2_Ia},
+        "Ib":  {5D3-2_Ib},
+        "Ic":  {5D3-2_Ic},
+        "P":   {5D3-2_P},
+        "Q":   {5D3-2_Q},
+        "S":   {5D3-2_S},
+        "F":   {5D3-2_F},
+        "Pf":  {5D3-2_Pf},
+        "Wh":  {5D3-2_Wh},
+        "Varh":{5D3-2_Varh}
+      }
+    }
+  ],
+  "HZ-GZDW":
+  [
+    {
+      "ts": {HZ-GZDW_time},
+      "values": {
+        "Ua":  {HZ-GZDW_Ua},
+        "Ub":  {HZ-GZDW_Ub},
+        "Uc":  {HZ-GZDW_Uc},
+        "Uhm": {HZ-GZDW_Uhm},
+        "Ukm": {HZ-GZDW_Ukm},
+        "Idc": {HZ-GZDW_Idc},
+        "Ikm": {HZ-GZDW_Ikm}
+      }
+    }
+  ],
+  "W1":
+  [
+    {
+      "ts": {W1_time},
+      "values": {
+        "1D5-8_1A": {1A},
+        "1D5-8_1B": {1B},
+        "1D5-8_1C": {1C},
+        "5D3-2_2A": {2A},
+        "5D3-2_2B": {2B},
+        "5D3-2_2C": {2C},
+        "1D5-8_A_p": {1A_p},
+        "1D5-8_B_p": {1B_p},
+        "1D5-8_C_p": {1C_p},
+        "5D3-2_A_p": {2A_p},
+        "5D3-2_B_p": {2B_p},
+        "5D3-2_C_p": {2C_p}
+      }
+    }
+  ]
+}
