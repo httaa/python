@@ -1,0 +1,44 @@
+{
+  "W1":
+  [
+    {
+      "ts": {time},
+      "values": {
+        "1A": {1A},
+        "1B": {1B},
+        "1C": {1C},
+        "2A": {2A},
+        "2B": {2B},
+        "2C": {2C},
+        "1A_p": {1A_p},
+        "1B_p": {1B_p},
+        "1C_p": {1C_p},
+        "2A_p": {2A_p},
+        "2B_p": {2B_p},
+        "2C_p": {2C_p}
+      }
+    }
+  ],
+  "AH10":
+  [
+    {
+      "ts": {time},
+      "values": {
+        "F":   {AH10_F},
+        "Ia":  {AH10_Ia},
+        "Ib":  {AH10_Ib},
+        "Ic":  {AH10_Ic},
+        "W":   {AH10_W},
+        "P":   {AH10_P},
+        "Pf":  {AH10_Pf},
+        "Q":   {AH10_Q},
+        "Ua":  {AH10_Ua},
+        "Uab": {AH10_Uab},
+        "Ub":  {AH10_Ub},
+        "Ubc": {AH10_Ubc},
+        "Uc":  {AH10_Uc},
+        "Uca": {AH10_Uca}
+      }
+    }
+  ]
+}
